@@ -1,0 +1,571 @@
+* {
+    margin: 0;
+    font-family: cursive;
+    
+}
+main{
+    overflow: hidden;
+}
+/***************************** Home Section *********************/
+header {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background: url("../images/b1.jpg") no-repeat center/cover;
+    color: #fff;
+}
+
+/**************************** Navbar section ************************/
+nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: transparent;
+}
+
+nav span {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 60%;
+    height: 50px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+nav ul li {
+
+    width: 15.5%;
+    height: 50px;    
+    
+}
+
+nav ul li a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 1..1rem;
+    text-align: center;
+    padding: 11.5px;
+    box-sizing: border-box;
+}
+
+nav ul li a:hover {
+    background-color: #ffffff63;
+    border-radius: 7px;
+}
+
+/******************************* Inner Section ************************/
+.inner-div {
+    width: 25%;
+    min-height: 300px;
+    position: relative;
+    transform: translate(80%, 70%);
+}
+
+.outline-div {
+    width: 90%;
+    min-height: 200px;
+    border: 3px solid #f90;
+    position: absolute;
+    background-color: transparent;
+}
+
+.head-div {
+    width: 90%;
+    min-height: 190px;
+    background-color: #eeececea;
+    transform: translate(15%, 55%);
+    color: #000;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.head-div p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.head-div span {
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    color: #18c05e;
+}
+
+/************************************** About Us Section *******************************/
+.container {
+    perspective: 700px;
+    min-height: 400px;
+    position: relative;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+}
+
+.front {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.front1 {
+    background: url("../images/ab1.jpg") no-repeat center/cover;
+}
+
+.front2 {
+    background: url("../images/ab2.jpg") no-repeat center/cover;
+}
+
+.front3 {
+    background: url("../images/ab4.jpg") no-repeat center/cover;
+}
+
+.front4 {
+    background: url("../images/ab3.jpg") no-repeat center/cover;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #fff;
+    color: #5c5a5a;
+    padding: 15px;
+    box-sizing: border-box;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    font-size: .9rem;
+}
+.back span{
+    font-size: 1.2rem;
+}
+.header-txt{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    color: #f90;
+}
+.card:hover{
+    transform: rotateY(180deg);
+}
+
+/************************** Adventure Section ****************************/
+#adventure {
+    min-height: 400px;
+    text-align: center;
+    background: url("../images/b3.jpg") no-repeat center/cover;
+    color: #fff;
+    
+}
+.adv-head{
+    height: 80px;
+    margin-top: 60px;
+    box-sizing: border-box;
+}
+.adv-head .parag{
+    margin: 0;
+    font-size: 1.4rem;
+}
+.header-txt2{
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: #ffd82a;
+    letter-spacing: 1px;
+}
+
+.circle{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin: 10px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.circle i{
+    font-size: 35px;
+}
+.circle p{
+    font-family: sans-serif;
+    color: #ffd82a;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.circle:hover{
+    background-color: #ff99005d;
+}
+
+/********************************** Services Section **************************************/
+#services{
+    min-height: 800px;
+    text-align: center;
+}
+.card2{
+    width:350px;
+    height: 200px;
+    box-shadow: 1px 1px 11px #a09a9a ;
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    color: #5c5a5a;
+}
+.card2 i{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.card2 .card-title{
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    color: #3cbe72;
+}
+/******************************** Special Tour *****************************************/
+#specialTour{
+    min-height: 400px;
+    position: relative;
+}
+.border-div{
+    width:20%;
+    height: 220px;
+    background-color: transparent;
+    border: 3px solid #3cbe72;
+    position: absolute;
+    transform: translate(165% , 35%);
+}
+.img-div{
+    height: 400px;
+    background:url("../images/ab4.jpg") no-repeat center/cover;
+   
+}
+.txt-div{
+    height: 400px;
+    background-color: #e0dede;
+    padding: 5%;
+    box-sizing: border-box;
+    color: #a09a9a;
+    
+}
+.txt-div h1{ 
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #3cbe72;
+}
+/********************************** Gallery Section *********************************************/
+#gallery{
+    min-height: 850px;
+    text-align: center;
+}
+
+.ab3-div{
+    height: 300px;
+    background: url(../images/ab3.jpg) no-repeat center/cover;
+}
+.g5-div{
+    height: 300px;
+    background: url(../images/g5.jpg) no-repeat center/cover;
+}
+.g6-div{
+    height: 300px;
+    background: url(../images/g6.jpg) no-repeat center/cover;
+}
+.ab4-div{
+    height: 300px;
+    background: url(../images/ab4.jpg) no-repeat center/cover;
+}
+.ab1-div{
+    height: 300px;
+    background: url(../images/ab1.jpg) no-repeat center/cover;
+}
+.ab2-div{
+    height: 300px;
+    background: url(../images/ab2.jpg) no-repeat center/cover;
+}
+/*************************************** Rating Section ************************************/
+#rating{
+    min-height: 800px;
+}
+.colored-div{
+    height: 400px;
+    background-color: #e0dede;
+    color: #a09a9a;
+}
+.rating-div2{
+    height: 400px;
+    background:url("../images/b4.jpg") no-repeat center bottom/cover;
+    color: #a09a9a;
+}
+.rating-div4{
+    height: 400px;
+    background:url("../images/g6.jpg") no-repeat center bottom/cover;
+    color: #a09a9a;
+}
+.rate-div{
+    padding: 90px 80px;
+    box-sizing: border-box;
+}
+.rate-div span{
+    font-family: sans-serif;
+
+}
+.rate-div h2{
+    font-family: sans-serif;
+    color: #3cbe72;
+    font-weight: bold;
+}
+.rate-div p{
+    font-family: sans-serif;
+
+}
+.rate-div .readmore-btn{
+    width: 110px;
+    height: 40px;
+    background-color: #2b2a2a;
+    color: #fff; ;
+    text-align: center;
+    font-size: 1rem;
+    padding: 7px;
+    box-sizing: border-box;
+    margin-top: 40px;
+}
+/******************************** Booking Section ********************************/
+#booking{
+    min-height: 650px;
+    text-align: center;
+}
+.book-img1{
+    height:240px;
+    background: url("../images/d1.jpg") no-repeat center bottom/cover;
+    text-align: left;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.book-img1 i{
+    color: #ffd82a;
+}
+.book-img2{
+    height:240px;
+    background: url("../images/d2.jpg") no-repeat center bottom/cover;
+    text-align: left;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.book-img2 i{
+    color: #ffd82a;
+}
+.book-img3{
+    height:240px;
+    background: url("../images/d3.jpg") no-repeat center bottom/cover;
+    text-align: left;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.book-img3 i{
+    color: #ffd82a;
+}
+.book-img4{
+    height:240px;
+    background: url("../images/d4.jpg") no-repeat center bottom/cover;
+    text-align: left;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.book-img4 i{
+    color: #ffd82a;
+}
+.book-txt{
+    text-align: left;
+}
+.book-txt h3{
+    font-family: sans-serif;
+    color: #ffd82a;
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.book-txt p{
+    font-family: sans-serif;
+    color: #a09a9a;
+    font-size: 1.1rem;
+}
+.book-txt span{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.book-txt span.book-span{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #3cbe72;
+    margin-right: 110px;
+}
+/****************************** Subscribe Section ******************************************/
+#subscribe{
+    min-height: 350px;
+    background: url("../images/b4.jpg") no-repeat center/cover;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+#subscribe form{
+    margin: auto;
+    width:450px;
+    height: 80px;
+    background-color: #e0dede80;
+}
+#email{
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 0;
+    border: 0;
+    font-family: sans-serif;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+#submit{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 0;
+    background-color: #3cbe72;
+    border: 0;
+    font-family: sans-serif;
+    
+}
+
+/********************************** Contact Section ******************************/
+#contact{
+    min-height: 650px;
+    text-align: center;
+}
+.map-div{
+    overflow: hidden;
+}
+#contact input{
+    width: 90%;
+    height: 50px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    padding-left:20px ;
+}
+#contact form{
+    height: 100%;
+}
+#contact form fieldset{
+    padding: 0;
+}
+#contact form fieldset input.message{
+    width: 95%;
+    height: 210px;    
+    box-sizing: border-box;
+}
+#contact form fieldset input.button{
+    width: 95%;
+    background-color: #18c05e;
+    color: #fff;
+    margin-top: 50px;
+    border: 0;
+}
+/*************************** Contact Info Section  *****************/
+#contact-info{
+    background-color: #2b2a2a;
+    min-height:400px ;
+    text-align: center;
+}
+#contact-info .info p{
+    font-size: 1rem;
+    color: #a09a9a;
+    font-family: sans-serif;
+}
+#contact-info .info span{
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.social-icon{
+    width: 190px;
+    height: 80px;
+    margin: auto; 
+    text-align: center;
+}
+.facebook{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1b87ec;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.twitter{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1baaec;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4px;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.rss{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(236, 78, 21);
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: .85rem;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.arrow-up a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+}
+/****************************** footer section ***********************/
+footer{
+    height: 60px;
+    margin: 0;
+    background-color: #000;
+}
+footer marquee{
+    color: #fff ;
+    font-family: sans-serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    padding-top: 17px;
+}
